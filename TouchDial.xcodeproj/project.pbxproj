@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1AA20DC1BAD85D6008D29FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20DB1BAD85D6008D29FA /* AppDelegate.swift */; };
+		A1AA20E11BAD85D6008D29FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AA20DF1BAD85D6008D29FA /* Main.storyboard */; };
+		A1AA20E31BAD85D6008D29FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AA20E21BAD85D6008D29FA /* Assets.xcassets */; };
+		A1AA20E61BAD85D6008D29FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AA20E41BAD85D6008D29FA /* LaunchScreen.storyboard */; };
+		A1AA20EE1BAD87F1008D29FA /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20ED1BAD87F1008D29FA /* SettingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1AA20F01BAD87FE008D29FA /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20EF1BAD87FE008D29FA /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1AA20F21BAD96F5008D29FA /* TouchDialContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20F11BAD96F5008D29FA /* TouchDialContacts.swift */; settings = {ASSET_TAGS = (); }; };
+		A1AA20F41BAD9E54008D29FA /* LocalContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20F31BAD9E54008D29FA /* LocalContacts.swift */; settings = {ASSET_TAGS = (); }; };
+		A1AA20F61BADB3DB008D29FA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20F51BADB3DB008D29FA /* Contact.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1AA20D81BAD85D6008D29FA /* TouchDial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AA20DB1BAD85D6008D29FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1AA20E01BAD85D6008D29FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1AA20E21BAD85D6008D29FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1AA20E51BAD85D6008D29FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1AA20E71BAD85D6008D29FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AA20ED1BAD87F1008D29FA /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A1AA20EF1BAD87FE008D29FA /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		A1AA20F11BAD96F5008D29FA /* TouchDialContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDialContacts.swift; sourceTree = "<group>"; };
+		A1AA20F31BAD9E54008D29FA /* LocalContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalContacts.swift; sourceTree = "<group>"; };
+		A1AA20F51BADB3DB008D29FA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1AA20D51BAD85D6008D29FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1AA20CF1BAD85D6008D29FA = {
+			isa = PBXGroup;
+			children = (
+				A1AA20DA1BAD85D6008D29FA /* TouchDial */,
+				A1AA20D91BAD85D6008D29FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1AA20D91BAD85D6008D29FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1AA20D81BAD85D6008D29FA /* TouchDial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1AA20DA1BAD85D6008D29FA /* TouchDial */ = {
+			isa = PBXGroup;
+			children = (
+				A1AA20DB1BAD85D6008D29FA /* AppDelegate.swift */,
+				A1AA20DF1BAD85D6008D29FA /* Main.storyboard */,
+				A1AA20E21BAD85D6008D29FA /* Assets.xcassets */,
+				A1AA20E41BAD85D6008D29FA /* LaunchScreen.storyboard */,
+				A1AA20E71BAD85D6008D29FA /* Info.plist */,
+				A1AA20ED1BAD87F1008D29FA /* SettingViewController.swift */,
+				A1AA20EF1BAD87FE008D29FA /* ContactViewController.swift */,
+				A1AA20F11BAD96F5008D29FA /* TouchDialContacts.swift */,
+				A1AA20F31BAD9E54008D29FA /* LocalContacts.swift */,
+				A1AA20F51BADB3DB008D29FA /* Contact.swift */,
+			);
+			path = TouchDial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1AA20D71BAD85D6008D29FA /* TouchDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1AA20EA1BAD85D6008D29FA /* Build configuration list for PBXNativeTarget "TouchDial" */;
+			buildPhases = (
+				A1AA20D41BAD85D6008D29FA /* Sources */,
+				A1AA20D51BAD85D6008D29FA /* Frameworks */,
+				A1AA20D61BAD85D6008D29FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchDial;
+			productName = TouchDial;
+			productReference = A1AA20D81BAD85D6008D29FA /* TouchDial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1AA20D01BAD85D6008D29FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = fullstackpug;
+				TargetAttributes = {
+					A1AA20D71BAD85D6008D29FA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A1AA20D31BAD85D6008D29FA /* Build configuration list for PBXProject "TouchDial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1AA20CF1BAD85D6008D29FA;
+			productRefGroup = A1AA20D91BAD85D6008D29FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1AA20D71BAD85D6008D29FA /* TouchDial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1AA20D61BAD85D6008D29FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AA20E61BAD85D6008D29FA /* LaunchScreen.storyboard in Resources */,
+				A1AA20E31BAD85D6008D29FA /* Assets.xcassets in Resources */,
+				A1AA20E11BAD85D6008D29FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1AA20D41BAD85D6008D29FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AA20F61BADB3DB008D29FA /* Contact.swift in Sources */,
+				A1AA20DC1BAD85D6008D29FA /* AppDelegate.swift in Sources */,
+				A1AA20EE1BAD87F1008D29FA /* SettingViewController.swift in Sources */,
+				A1AA20F41BAD9E54008D29FA /* LocalContacts.swift in Sources */,
+				A1AA20F21BAD96F5008D29FA /* TouchDialContacts.swift in Sources */,
+				A1AA20F01BAD87FE008D29FA /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1AA20DF1BAD85D6008D29FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1AA20E01BAD85D6008D29FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1AA20E41BAD85D6008D29FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1AA20E51BAD85D6008D29FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1AA20E81BAD85D6008D29FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1AA20E91BAD85D6008D29FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1AA20EB1BAD85D6008D29FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchDial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.TouchDial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1AA20EC1BAD85D6008D29FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchDial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.TouchDial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1AA20D31BAD85D6008D29FA /* Build configuration list for PBXProject "TouchDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AA20E81BAD85D6008D29FA /* Debug */,
+				A1AA20E91BAD85D6008D29FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1AA20EA1BAD85D6008D29FA /* Build configuration list for PBXNativeTarget "TouchDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AA20EB1BAD85D6008D29FA /* Debug */,
+				A1AA20EC1BAD85D6008D29FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1AA20D01BAD85D6008D29FA /* Project object */;
+}
