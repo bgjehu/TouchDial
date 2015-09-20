@@ -19,7 +19,7 @@ class ContactViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        self.navigationItem.title = "All Contacts"
+        self.navigationItem.title = "Add Contact"
         contacts = LocalContacts.contacts
     }
 
@@ -53,7 +53,8 @@ class ContactViewController: UITableViewController {
             try TouchDialContacts.sharedContacts().addContact(contacts[indexPath.row])
             self.navigationController?.popViewControllerAnimated(true)
         } catch AddContactError.listIsFull {
-            let alert = UIAlertController(title: "Touch Dial List Full", message: "Limit 5 contacts", preferredStyle: .Alert)
+            let limitCount = TouchDialContacts.sharedContacts().limit
+            let alert = UIAlertController(title: "Touch Dial List Full", message: "Limit \(limitCount) contacts", preferredStyle: .Alert)
             alert.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: {action in
                 self.navigationController?.popViewControllerAnimated(true)
                 self.navigationController?.editing = true

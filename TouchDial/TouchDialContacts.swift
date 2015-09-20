@@ -32,7 +32,12 @@ class TouchDialContacts: NSObject {
     private let contactsFilePath = (NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString).stringByAppendingPathComponent("contacts")
     
     //  touch dial contact limit
-    private let limit = 5
+    private let _limit = 4
+    var limit : Int {
+        get{
+            return _limit
+        }
+    }
     
     var count : Int {
         get{
@@ -43,6 +48,13 @@ class TouchDialContacts: NSObject {
     override init() {
         super.init()
         load()
+    }
+    
+    func refresh() {
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
+            UIApplication.sharedApplication().shortcutItems = self.contacts.map({contact in contact.toAppShortcutItem()})
+            self.store()
+        })
     }
     
     func addContact(contact : Contact) throws {
@@ -56,18 +68,21 @@ class TouchDialContacts: NSObject {
             } else {
                 //  add contact
                 _contacts.append(contact)
+                refresh()
             }
         }
     }
     
     func removeContact(index : Int) {
         _contacts.removeAtIndex(index)
+        refresh()
     }
     
     func swapContact(fromIndex : Int, toIndex : Int) {
         let contact = contacts[fromIndex]
         _contacts.removeAtIndex(fromIndex)
         _contacts.insert(contact, atIndex: toIndex)
+        refresh()
     }
     
     private func load() {

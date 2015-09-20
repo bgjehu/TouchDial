@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A16FBA931BAE328500E9C6DF /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16FBA921BAE328500E9C6DF /* Contact.swift */; settings = {ASSET_TAGS = (); }; };
 		A1AA20DC1BAD85D6008D29FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20DB1BAD85D6008D29FA /* AppDelegate.swift */; };
 		A1AA20E11BAD85D6008D29FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AA20DF1BAD85D6008D29FA /* Main.storyboard */; };
 		A1AA20E31BAD85D6008D29FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AA20E21BAD85D6008D29FA /* Assets.xcassets */; };
@@ -15,10 +16,11 @@
 		A1AA20F01BAD87FE008D29FA /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20EF1BAD87FE008D29FA /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1AA20F21BAD96F5008D29FA /* TouchDialContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20F11BAD96F5008D29FA /* TouchDialContacts.swift */; settings = {ASSET_TAGS = (); }; };
 		A1AA20F41BAD9E54008D29FA /* LocalContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20F31BAD9E54008D29FA /* LocalContacts.swift */; settings = {ASSET_TAGS = (); }; };
-		A1AA20F61BADB3DB008D29FA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA20F51BADB3DB008D29FA /* Contact.swift */; settings = {ASSET_TAGS = (); }; };
+		A1BDEEB91BAF0102009F75BC /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BDEEB81BAF0102009F75BC /* launchscreen.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A16FBA921BAE328500E9C6DF /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		A1AA20D81BAD85D6008D29FA /* TouchDial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AA20DB1BAD85D6008D29FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1AA20E01BAD85D6008D29FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		A1AA20EF1BAD87FE008D29FA /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		A1AA20F11BAD96F5008D29FA /* TouchDialContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDialContacts.swift; sourceTree = "<group>"; };
 		A1AA20F31BAD9E54008D29FA /* LocalContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalContacts.swift; sourceTree = "<group>"; };
-		A1AA20F51BADB3DB008D29FA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../Contact.swift; sourceTree = "<group>"; };
+		A1BDEEB81BAF0102009F75BC /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchscreen.png; path = Other/launchscreen.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		A1AA20DA1BAD85D6008D29FA /* TouchDial */ = {
 			isa = PBXGroup;
 			children = (
+				A1BDEEB81BAF0102009F75BC /* launchscreen.png */,
 				A1AA20DB1BAD85D6008D29FA /* AppDelegate.swift */,
 				A1AA20DF1BAD85D6008D29FA /* Main.storyboard */,
 				A1AA20E21BAD85D6008D29FA /* Assets.xcassets */,
@@ -71,7 +74,7 @@
 				A1AA20EF1BAD87FE008D29FA /* ContactViewController.swift */,
 				A1AA20F11BAD96F5008D29FA /* TouchDialContacts.swift */,
 				A1AA20F31BAD9E54008D29FA /* LocalContacts.swift */,
-				A1AA20F51BADB3DB008D29FA /* Contact.swift */,
+				A16FBA921BAE328500E9C6DF /* Contact.swift */,
 			);
 			path = TouchDial;
 			sourceTree = "<group>";
@@ -107,6 +110,7 @@
 				TargetAttributes = {
 					A1AA20D71BAD85D6008D29FA = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J6AJQ8THRK;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			files = (
 				A1AA20E61BAD85D6008D29FA /* LaunchScreen.storyboard in Resources */,
 				A1AA20E31BAD85D6008D29FA /* Assets.xcassets in Resources */,
+				A1BDEEB91BAF0102009F75BC /* launchscreen.png in Resources */,
 				A1AA20E11BAD85D6008D29FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1AA20F61BADB3DB008D29FA /* Contact.swift in Sources */,
+				A16FBA931BAE328500E9C6DF /* Contact.swift in Sources */,
 				A1AA20DC1BAD85D6008D29FA /* AppDelegate.swift in Sources */,
 				A1AA20EE1BAD87F1008D29FA /* SettingViewController.swift in Sources */,
 				A1AA20F41BAD9E54008D29FA /* LocalContacts.swift in Sources */,
@@ -262,10 +267,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TouchDial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.TouchDial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -273,10 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TouchDial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.TouchDial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -299,6 +310,7 @@
 				A1AA20EC1BAD85D6008D29FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
